@@ -1,0 +1,13 @@
+- page.title=team
+article
+  h1= team
+  p.bcl [[陣営一覧]] > #{team}
+  div.content
+    != content
+  section
+    h2 所属する役職の一覧
+    ul
+      each val,key in jobs
+        if val.team==team
+          li [[#{val.name}]]
+

@@ -1,0 +1,6 @@
+{
+	"renderer":{
+		"type":"static",
+		"exts":[".css"]
+	}
+}

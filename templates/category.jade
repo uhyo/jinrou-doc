@@ -1,0 +1,13 @@
+- page.title=category
+article
+  h1= category
+  p.bcl [[系統一覧]] > #{category}
+  div.content
+    != content
+  section
+    h2 所属する役職の一覧
+    ul
+      each val,key in jobs
+        if val.type==category
+          li [[#{val.name}]]
+

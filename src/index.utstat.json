@@ -1,0 +1,4 @@
+{
+	"template":"../templates/main.jade",
+	"renderer":"renderer.js"
+}

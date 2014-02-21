@@ -1,0 +1,26 @@
+- page.title=job.name
+article
+  h1= job.name
+  p.bcl [[役職一覧]] > #{job.name}
+  div.jobinfo
+    dl
+      dt 陣営
+      dd [[#{job.team}]]
+      dt 系統
+      if job.type=="なし"
+        dd なし
+      else
+        dd [[#{job.type}]]
+      dt 占い結果
+      dd= job.fortune
+      dt 霊能結果
+      dd= job.psychic
+      dt 終了判定カウント
+      dd= job.judge
+      dt 夜選択
+      if job.select
+        dd= job.select
+      else
+        dd なし
+  div.content
+    != content

@@ -1,0 +1,9 @@
+- page.title="系統一覧"
+article
+  h1 系統一覧
+  p 系統の詳細は各系統のページを参照してください。
+  p 系統による分類は[[一部闇鍋|闇鍋]]で使用されます。
+  ul
+    each val,key in categories
+      li
+        a(href='./'+key+'.html')= val

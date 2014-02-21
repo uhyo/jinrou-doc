@@ -1,0 +1,9 @@
+- page.title="サブ役職一覧"
+article
+  h1 サブ役職一覧
+  p サブ役職とは、[[恋人]]のように補助的に付加される役職のことです。
+  p サブ役職により勝利条件が変更されることもあります。
+  ul
+    each val,key in subs
+      li
+        a(href='./'+key+'.html')= val.name

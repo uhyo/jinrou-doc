@@ -1,0 +1,23 @@
+- page.title="役職一覧"
+article
+  h1 役職一覧
+  p 役職の詳細は各役職のページを参照してください。
+  table
+    thead
+      tr
+        th 役職名
+        th 陣営
+        th 系統
+        th 占い結果
+        th 霊能結果
+    tbody
+      each val,key in jobs
+        tr
+          td [[#{val.name}]]
+          td [[#{val.team}]]
+          if val.type=="なし"
+            td なし
+          else
+            td [[#{val.type}]]
+          td #{val.fortune}
+          td #{val.psychic}
