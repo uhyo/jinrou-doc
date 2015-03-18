@@ -10,6 +10,7 @@ article
         th 系統
         th 占い結果
         th 霊能結果
+        th 出典
     tbody
       each val,key in jobs
         tr
@@ -21,3 +22,8 @@ article
             td [[#{val.type}]]
           td #{val.fortune}
           td #{val.psychic}
+          if val.source in urlTable
+            td
+              a(href=urlTable[val.source],target="_blank")= val.source
+          else
+            td #{val.source}

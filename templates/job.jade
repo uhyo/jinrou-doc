@@ -1,4 +1,5 @@
 - page.title=job.name
+- var urlTable={"うそつき人狼":"http://jinraw.com/usotsuki","月夜の人狼":"http://rakurakutei.fool.jp/moon_wolf"};
 article
   h1= job.name
   p.bcl [[役職一覧]] > #{job.name}
@@ -22,5 +23,11 @@ article
         dd= job.select
       else
         dd なし
+      dt 出典
+      dd
+        if job.source in urlTable
+          a(href=urlTable[job.source],target="_blank")= job.source
+        else
+          = job.source
   div.content
     != content

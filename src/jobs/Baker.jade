@@ -1,0 +1,22 @@
+p パン屋が生存している場合、毎朝システムメッセージが表示されます。
+p パン屋が全員死亡した場合、翌朝にシステムメッセージで知らされます。
+p なお、パン屋が[[威嚇する狼]]に威嚇された場合でも翌朝システムメッセージは表示されます。
+
+
+include common/team_Human.jade
+section
+  h2 勝利条件
+  p [[村人陣営]]の勝利
+
+section
+  h2 ログ
+  dl.logs
+    dt 生存時
+    dd
+      p.log.system パン屋がおいしいパンを焼いてくれたそうです。
+    dt 死亡時
+    dd
+      p.log.system 今日からはもうおいしいパンが食べられません。
+section
+  h2 出典
+  p <a href="https://twitter.com/fysm09/status/503268597943123968">Twitterのつぶやき</a>が出典。対面人狼のローカル役職。

@@ -21,6 +21,7 @@ exports.jobs=
         # 護衛能力
         wolfGuard:false
         vampireGuard:false
+        source:"不明"
     Werewolf:
         name:"人狼"
         team:"人狼陣営"
@@ -30,6 +31,7 @@ exports.jobs=
         judge:"狼"
         select:"強制"
         wolfTolerance:true
+        source:"不明"
     Diviner:
         name:"占い師"
         team:"村人陣営"
@@ -38,6 +40,7 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"強制"
+        source:"不明"
     Psychic:
         name:"霊能者"
         team:"村人陣営"
@@ -45,6 +48,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"不明"
     Madman:
         name:"狂人"
         team:"人狼陣営"
@@ -52,6 +56,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"不明"
     Guard:
         name:"狩人"
         team:"村人陣営"
@@ -62,6 +67,7 @@ exports.jobs=
         select:"強制"
         wolfGuard:true
         vampireGuard:true
+        source:"不明"
     Couple:
         name:"共有者"
         team:"村人陣営"
@@ -69,6 +75,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"不明"
     Fox:
         name:"妖狐"
         team:"妖狐陣営"
@@ -77,6 +84,7 @@ exports.jobs=
         psychic:"村人"
         judge:"狐"
         wolfTolerance:true
+        source:"不明"
     Poisoner:
         name:"埋毒者"
         team:"村人陣営"
@@ -84,6 +92,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"不明"
     BigWolf:
         name:"大狼"
         team:"人狼陣営"
@@ -91,6 +100,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"大狼"
         judge:"狼"
+        source:"不明"
     TinyFox:
         name:"子狐"
         team:"妖狐陣営"
@@ -99,6 +109,7 @@ exports.jobs=
         psychic:"子狐"
         judge:"狐"
         select:"強制"
+        source:"不明"
     Bat:
         name:"こうもり"
         team:"その他"
@@ -106,6 +117,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"桃栗サーバー"
     Noble:
         name:"貴族"
         team:"村人陣営"
@@ -113,6 +125,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"桃栗サーバー"
     Slave:
         name:"奴隷"
         team:"村人陣営"
@@ -120,6 +133,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"桃栗サーバー"
     Magician:
         name:"魔術師"
         team:"村人陣営"
@@ -128,6 +142,7 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"強制"
+        source:"桃栗サーバー"
     Spy:
         name:"スパイ"
         team:"人狼陣営"
@@ -136,6 +151,7 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"任意"
+        source:"桃栗サーバー"
     WolfDiviner:
         name:"人狼占い"
         team:"人狼陣営"
@@ -144,6 +160,7 @@ exports.jobs=
         psychic:"人狼"
         judge:"狼"
         select:"強制"
+        source:"桃栗サーバー"
     Fugitive:
         name:"逃亡者"
         team:"村人陣営"
@@ -154,6 +171,7 @@ exports.jobs=
         select:"強制"
         wolfTolerance:true
         vampireTolerance:true
+        source:"桃栗サーバー"
     Merchant:
         name:"商人"
         team:"村人陣営"
@@ -162,6 +180,7 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"任意"
+        source:"桃栗サーバー"
     QueenSpectator:
         name:"女王観戦者"
         team:"村人陣営"
@@ -169,6 +188,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"桃栗サーバー"
     MadWolf:
         name:"狂人狼"
         team:"村人陣営"
@@ -176,6 +196,7 @@ exports.jobs=
         fortune:"人狼"
         psychic:"人狼"
         judge:"狼"
+        source:"桃栗サーバー"
     Neet:
         name:"ニート"
         team:"ニート"
@@ -183,6 +204,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"桃栗サーバー"
     Liar:
         name:"嘘つき"
         team:"村人陣営"
@@ -191,6 +213,7 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"強制"
+        source:"桃栗サーバー"
     Spy2:
         name:"スパイⅡ"
         team:"人狼陣営"
@@ -198,6 +221,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"桃栗サーバー"
     Copier:
         name:"コピー"
         team:"その他"
@@ -206,6 +230,7 @@ exports.jobs=
         psychic:"村人"
         judge:"なし"
         select:"任意"
+        source:"桃栗サーバー"
     Light:
         name:"デスノート"
         team:"村人陣営"
@@ -214,6 +239,7 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"任意"
+        source:"わかめてサーバー"
     Fanatic:
         name:"狂信者"
         team:"人狼陣営"
@@ -221,6 +247,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"不明"
     Immoral:
         name:"背徳者"
         team:"妖狐陣営"
@@ -228,6 +255,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"不明"
     Devil:
         name:"悪魔くん"
         team:"悪魔くん陣営"
@@ -236,6 +264,7 @@ exports.jobs=
         psychic:"人狼"
         judge:"人"
         wolfTolerance:true
+        source:"タブラの狼"
     ToughGuy:
         name:"タフガイ"
         team:"村人陣営"
@@ -243,6 +272,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"究極の人狼"
     Cupid:
         name:"キューピッド"
         team:"恋人陣営"
@@ -251,6 +281,7 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"強制"
+        source:"不明"
     Stalker:
         name:"ストーカー"
         team:"その他"
@@ -259,6 +290,7 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"強制"
+        source:"その他"
     Cursed:
         name:"呪われた者"
         team:"村人陣営"
@@ -268,6 +300,7 @@ exports.jobs=
         judge:"人"
         wolfTolerance:true
         vampireTolerance:true
+        source:"究極の人狼"
     ApprenticeSeer:
         name:"見習い占い師"
         team:"村人陣営"
@@ -275,6 +308,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"究極の人狼"
     Diseased:
         name:"病人"
         team:"村人陣営"
@@ -282,6 +316,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"究極の人狼"
     Spellcaster:
         name:"呪いをかける者"
         team:"村人陣営"
@@ -290,6 +325,7 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"任意"
+        source:"究極の人狼"
     Lycan:
         name:"狼憑き"
         team:"村人陣営"
@@ -297,6 +333,7 @@ exports.jobs=
         fortune:"人狼"
         psychic:"村人"
         judge:"人"
+        source:"究極の人狼"
     Priest:
         name:"聖職者"
         team:"村人陣営"
@@ -307,6 +344,7 @@ exports.jobs=
         wolfGuard:true
         vampireGuard:true
         select:"任意"
+        source:"究極の人狼"
     Prince:
         name:"プリンス"
         team:"村人陣営"
@@ -314,6 +352,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"究極の人狼"
     PI:
         name:"超常現象研究者"
         team:"村人陣営"
@@ -322,6 +361,7 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"任意"
+        source:"究極の人狼"
     Sorcerer:
         name:"妖術師"
         team:"人狼陣営"
@@ -330,6 +370,7 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"強制"
+        source:"究極の人狼"
     Doppleganger:
         name:"ドッペルゲンガー"
         team:"その他"
@@ -338,6 +379,7 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"任意"
+        source:"究極の人狼"
     CultLeader:
         name:"カルトリーダー"
         team:"その他"
@@ -346,6 +388,7 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"強制"
+        source:"究極の人狼"
     Vampire:
         name:"ヴァンパイア"
         team:"ヴァンパイア陣営"
@@ -355,6 +398,7 @@ exports.jobs=
         judge:"ヴァンパイア"
         select:"強制"
         wolfTolerance:true
+        source:"究極の人狼"
     LoneWolf:
         name:"一匹狼"
         team:"人狼陣営"
@@ -363,6 +407,7 @@ exports.jobs=
         psychic:"人狼"
         judge:"狼"
         select:"強制"
+        source:"究極の人狼"
     Cat:
         name:"猫又"
         team:"村人陣営"
@@ -371,6 +416,7 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"任意"
+        source:"不明"
     Witch:
         name:"魔女"
         team:"村人陣営"
@@ -379,6 +425,7 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"任意"
+        source:"究極の人狼"
     Oldman:
         name:"老人"
         team:"村人陣営"
@@ -386,6 +433,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"究極の人狼"
     Tanner:
         name:"皮なめし職人"
         team:"その他"
@@ -393,14 +441,16 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"究極の人狼"
     OccultMania:
         name:"オカルトマニア"
-        team:"その他"
+        team:"村人陣営"
         type:"役職変化系"
         fortune:"村人"
         psychic:"村人"
         judge:"人"
         select:"強制"
+        source:"究極の人狼"
     WolfCub:
         name:"狼の子"
         team:"人狼陣営"
@@ -409,6 +459,7 @@ exports.jobs=
         psychic:"人狼"
         judge:"狼"
         select:"強制"
+        source:"究極の人狼"
     WhisperingMad:
         name:"囁き狂人"
         team:"人狼陣営"
@@ -416,6 +467,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"不明"
     Lover:
         name:"求愛者"
         team:"恋人陣営"
@@ -423,6 +475,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"人狼天国"
     Thief:
         name:"盗人"
         team:"村人陣営"
@@ -430,6 +483,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"究極の人狼"
     Dog:
         name:"犬"
         team:"村人陣営"
@@ -440,6 +494,7 @@ exports.jobs=
         select:"強制"
         wolfGuard:true
         vampireGuard:true
+        source:"トガの狼"
     Dictator:
         name:"独裁者"
         team:"村人陣営"
@@ -447,6 +502,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"うそつき人狼"
     SeersMama:
         name:"予言者のママ"
         team:"村人陣営"
@@ -454,6 +510,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"うそつき人狼"
     Trapper:
         name:"罠師"
         team:"村人陣営"
@@ -464,6 +521,7 @@ exports.jobs=
         select:"強制"
         wolfGuard:true
         vampireGuard:true
+        source:"うそつき人狼"
     WolfBoy:
         name:"狼少年"
         team:"人狼陣営"
@@ -472,6 +530,7 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"任意"
+        source:"うそつき人狼"
     Hoodlum:
         name:"ならず者"
         team:"その他"
@@ -480,6 +539,7 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"強制"
+        source:"究極の人狼"
     QuantumPlayer:
         name:"量子人間"
         team:"その他"
@@ -488,6 +548,7 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"強制"
+        source:"量子人狼"
     RedHood:
         name:"赤ずきん"
         team:"村人陣営"
@@ -495,6 +556,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"その他"
     Counselor:
         name:"カウンセラー"
         team:"村人陣営"
@@ -503,6 +565,7 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"任意"
+        source:"Twitter人狼"
     Miko:
         name:"巫女"
         team:"村人陣営"
@@ -511,6 +574,7 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"任意"
+        source:"Twitter人狼"
     GreedyWolf:
         name:"欲張りな狼"
         team:"人狼陣営"
@@ -519,6 +583,7 @@ exports.jobs=
         psychic:"人狼"
         judge:"狼"
         select:"強制"
+        source:"Twitter人狼"
     FascinatingWolf:
         name:"誘惑する女狼"
         team:"人狼陣営"
@@ -527,6 +592,7 @@ exports.jobs=
         psychic:"人狼"
         judge:"狼"
         select:"強制"
+        source:"Twitter人狼"
     SolitudeWolf:
         name:"孤独な狼"
         team:"人狼陣営"
@@ -535,6 +601,7 @@ exports.jobs=
         psychic:"人狼"
         judge:"狼"
         select:"強制"
+        source:"Twitter人狼"
     ToughWolf:
         name:"一途な狼"
         team:"人狼陣営"
@@ -543,6 +610,7 @@ exports.jobs=
         psychic:"人狼"
         judge:"狼"
         select:"強制"
+        source:"Twitter人狼"
     ThreateningWolf:
         name:"威嚇する狼"
         team:"人狼陣営"
@@ -551,6 +619,7 @@ exports.jobs=
         psychic:"人狼"
         judge:"狼"
         select:"強制"
+        source:"Twitter人狼"
     HolyMarked:
         name:"聖痕者"
         team:"村人陣営"
@@ -558,6 +627,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"人狼審問"
     WanderingGuard:
         name:"風来狩人"
         team:"村人陣営"
@@ -568,6 +638,7 @@ exports.jobs=
         wolfGuard:true
         vampireGuard:true
         select:"強制"
+        source:"不明"
     ObstructiveMad:
         name:"邪魔狂人"
         team:"人狼陣営"
@@ -576,6 +647,7 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"強制"
+        source:"人狼天国"
     TroubleMaker:
         name:"トラブルメーカー"
         team:"村人陣営"
@@ -584,6 +656,7 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"任意"
+        source:"究極の人狼"
     FrankensteinsMonster:
         name:"フランケンシュタインの怪物"
         team:"村人陣営"
@@ -591,6 +664,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"究極の人狼"
     BloodyMary:
         name:"血まみれのメアリー"
         team:"村人陣営"
@@ -599,6 +673,7 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"任意"
+        source:"究極の人狼"
     King:
         name:"王様"
         team:"村人陣営"
@@ -606,6 +681,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"うそつき人狼"
     PsychoKiller:
         name:"サイコキラー"
         team:"人狼陣営"
@@ -613,6 +689,7 @@ exports.jobs=
         fortune:"村人"
         psychic:"村人"
         judge:"人"
+        source:"牢獄の悪夢"
     SantaClaus:
         name:"サンタクロース"
         team:"村人陣営"
@@ -621,6 +698,7 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"強制"
+        source:"オリジナル"
     Phantom:
         name:"怪盗"
         team:"村人陣営"
@@ -629,6 +707,7 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"強制"
+        source:"ワンナイト人狼"
     BadLady:
         name:"悪女"
         team:"恋人陣営"
@@ -637,6 +716,52 @@ exports.jobs=
         psychic:"村人"
         judge:"人"
         select:"強制"
+        source:"蒼汁天国"
+    DrawGirl:
+        name:"看板娘"
+        team:"村人陣営"
+        type:"村人系"
+        fortune:"村人"
+        psychic:"村人"
+        judge:"人"
+        select:"なし"
+        source:"月夜の人狼"
+    CautiousWolf:
+        name:"慎重な狼"
+        team:"人狼陣営"
+        type:"人狼系"
+        fortune:"人狼"
+        psychic:"人狼"
+        judge:"狼"
+        select:"強制"
+        source:"月夜の人狼"
+    Pyrotechnist:
+        name:"花火師"
+        team:"村人陣営"
+        type:"村人系"
+        fortune:"村人"
+        psychic:"村人"
+        judge:"人"
+        select:"任意"
+        source:"オリジナル"
+    Baker:
+        name:"パン屋"
+        team:"村人陣営"
+        type:"村人系"
+        fortune:"村人"
+        psychic:"村人"
+        judge:"人"
+        select:"なし"
+        source:"Twitter"
+    Bomber:
+        name:"爆弾魔"
+        team:"人狼陣営"
+        type:"狂人系"
+        fortune:"村人"
+        psychic:"村人"
+        judge:"人"
+        select:"任意"
+        source:"ねじれ天国"
 
 
 # 陣営の定義

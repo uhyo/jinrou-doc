@@ -3,6 +3,7 @@ var path=require('path');
 exports.getRenderer=function(builder){
 	var jobdata=require('../data/jobs.js');
 	var jobs=jobdata.jobs;
+    var urlTable={"うそつき人狼":"http://jinraw.com/usotsuki","月夜の人狼":"http://rakurakutei.fool.jp/moon_wolf"};
 	return {
 		render:function(filepath,currentState,callback){
 			var ext=path.extname(filepath);
@@ -13,7 +14,8 @@ exports.getRenderer=function(builder){
 			}
 			var base=path.basename(filepath,".jade");
 			var local={
-				jobs:jobs
+				jobs:jobs,
+                urlTable:urlTable
 			};
 			if(jobs[base]){
 				//記事がある
