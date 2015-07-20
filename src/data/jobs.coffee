@@ -251,7 +251,7 @@ exports.jobs=
     Immoral:
         name:"背徳者"
         team:"妖狐陣営"
-        type:"なし"
+        type:"背徳者系"
         fortune:"村人"
         psychic:"村人"
         judge:"人"
@@ -762,6 +762,24 @@ exports.jobs=
         judge:"人"
         select:"任意"
         source:"ねじれ天国"
+    Blasphemy:
+        name:"冒涜者"
+        team:"妖狐陣営"
+        type:"背徳者系"
+        fortune:"村人"
+        psychic:"村人"
+        judge:"人"
+        select:"強制"
+        source:"ねじれ天国"
+    Ushinotokimairi:
+        name:"丑刻参"
+        team:"人狼陣営"
+        type:"狂人系"
+        fortune:"村人"
+        psychic:"村人"
+        judge:"人"
+        select:"任意"
+        source:"ねじれ天国"
 
 
 # 陣営の定義
@@ -780,6 +798,7 @@ exports.categories=
     Madman:"狂人系"
     Werewolf:"人狼系"
     Fox:"妖狐系"
+    Immoral:"背徳者系"
     Switching:"役職変化系"
     Others:"第三陣営系"
 
@@ -815,5 +834,9 @@ exports.subs=
         real:"校正者（役職名）"
     KeepedLover:
         name:"手玉"
-        disp:"恋人（役職者）"
-        real:"手玉（役職者）"
+        disp:"恋人（役職名）"
+        real:"手玉（役職名）"
+    FoxMinion:
+        name:"狐憑き"
+        disp:"役職名"
+        real:"狐憑き（役職名）"
